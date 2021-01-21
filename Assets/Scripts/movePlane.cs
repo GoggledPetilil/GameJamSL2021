@@ -9,32 +9,7 @@ public class movePlane : MonoBehaviour
 	public Vector3 m_MovDir;
 
 	private void Update()
-	{
-		/*if (Input.GetKey(KeyCode.W) )
-		{
-			//Player.transform.rotation = Quaternion.Euler(new Vector3(15, 0, 0));
-			Player.transform.Rotate(speed * Time.deltaTime, 0, 0);
-		}
-
-		if (Input.GetKey(KeyCode.A))
-		{
-			//Player.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 15));
-			Player.transform.Rotate(0, 0, speed * Time.deltaTime);
-		}
-
-		if (Input.GetKey(KeyCode.S))
-		{
-			//Player.transform.rotation = Quaternion.Euler(new Vector3(-15, 0, 0));
-			Player.transform.Rotate(-speed * Time.deltaTime, 0, 0);
-		}
-
-		if (Input.GetKey(KeyCode.D))
-		{
-			//Player.transform.rotation = Quaternion.Euler(new Vector3(0, 0, -15));
-			Player.transform.Rotate(0, 0, -speed * Time.deltaTime);
-		}*/
-
-	
+	{	
 		float m_MovX = 0f;
 		float m_MovZ = 0f;
 		
