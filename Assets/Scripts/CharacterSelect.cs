@@ -42,16 +42,22 @@ public class CharacterSelect : MonoBehaviour
 
     private void ChangeModel()
     {
-        foreach (Transform child in m_ModelPivot.transform)
-        {
-            GameObject.Destroy(child.gameObject);
-        }
-
-        Instantiate(m_PlayerModels[m_ModelID], m_ModelPivot.transform);
+        Destroy(m_ModelPivot.transform.GetChild(1).gameObject);
+        
+        Vector3 posMod = new Vector3(0f, 0.2f, 0f);
+        Vector3 pos = m_ModelPivot.transform.position + posMod;
+        
+        Instantiate(m_PlayerModels[m_ModelID], pos, Quaternion.identity, m_ModelPivot.transform);
     }
 
     public void ModelToGameManager()
     {
         GameManager.instance.m_PlayerModel = m_PlayerModels[m_ModelID];
+        GoToGameplay();
+    }
+
+    private void GoToGameplay()
+    {
+        GameManager.instance.LoadScene("Level");
     }
 }

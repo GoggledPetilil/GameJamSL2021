@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml;
 using UnityEngine;
 
 public class movePlane : MonoBehaviour
 {
 	public GameObject Player;
 	public float speed = 30f;
+	public float m_MaxAngle;
 	public Vector3 m_MovDir;
 
 	private void Update()
@@ -27,6 +29,13 @@ public class movePlane : MonoBehaviour
 	// FixedUpdate is called 60 times per second. Regardless of FPS. Useful for physics.
 	private void FixedUpdate()
 	{
-		Player.transform.Rotate(m_MovDir * speed * Time.deltaTime);
+		float m_RotationX = m_MaxAngle * m_MovDir.x;
+		float m_RotationY = 0f;
+		float m_RotationZ = m_MaxAngle * m_MovDir.z;
+
+		Quaternion target = Quaternion.Euler(m_RotationX, m_RotationY, m_RotationZ);
+		
+		//Player.transform.rotation = Quaternion.Euler(m_RotationX, m_RotationY, m_RotationZ);
+		Player.transform.rotation = Quaternion.RotateTowards(transform.rotation, target, speed * Time.deltaTime);
 	}
 }

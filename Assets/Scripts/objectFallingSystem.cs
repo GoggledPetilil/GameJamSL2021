@@ -27,6 +27,14 @@ public class objectFallingSystem : MonoBehaviour
 		}
 
 		instatiateNum = Random.Range(0, indexFallingObjects);
+		
+		// To give the GameManager time to get access to the Player.
+		yield return new WaitForSeconds(0.1f);
+
+		if (Ball == null)
+		{
+			Ball = GameManager.instance.m_Player;
+		}
 
 		GameObject clone = Instantiate(fallingObjects[instatiateNum], new Vector3(Ball.transform.position.x, Ball.transform.position.y + 5, Ball.transform.position.z), Quaternion.identity);
 

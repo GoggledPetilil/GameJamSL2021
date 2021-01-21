@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -24,7 +25,17 @@ public class GameManager : MonoBehaviour
 
     public void SpawnPlayer(Vector3 pos)
     {
-        GameObject p = Instantiate(m_Player, pos, Quaternion.identity) as GameObject;
-        Instantiate(m_PlayerModel, p.transform);
+        GameObject p = Instantiate(m_PlayerModel, pos, Quaternion.identity) as GameObject;
+        m_Player = p;
+    }
+
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public void LoadToLevel()
+    {
+        LoadScene("Level");
     }
 }

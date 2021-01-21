@@ -11,7 +11,8 @@ public class CamMov : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameManager.instance.SpawnPlayer(Vector3.zero);
+        m_FocusObject = GameManager.instance.m_Player;
     }
 
     // Update is called once per frame
