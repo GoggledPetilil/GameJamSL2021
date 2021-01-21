@@ -3,17 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c7008f11-4a19-478b-b6e2-198f9cea4119" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJamSL2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJamSL2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Models/Sphere B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player Models/Sphere B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Models/Sphere G.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player Models/Sphere G.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Models/Sphere R.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player Models/Sphere R.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CharacterSelect.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CharacterSelect.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CamMov.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CamMov.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSelect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSelect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/movePlane.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/movePlane.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/objectFallingSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/objectFallingSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +30,9 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CamMov.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSelect.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/movePlane.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/objectFallingSystem.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSelect.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nKwo88T6d4o7i4CnD0qWuXj5Uy" />
@@ -83,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611153803259</updated>
       <workItem from="1611153825099" duration="4023000" />
-      <workItem from="1611236709597" duration="6598000" />
+      <workItem from="1611236709597" duration="8377000" />
     </task>
     <servers />
   </component>

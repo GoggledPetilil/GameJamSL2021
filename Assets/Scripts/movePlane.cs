@@ -35,7 +35,6 @@ public class movePlane : MonoBehaviour
 
 		Quaternion target = Quaternion.Euler(m_RotationX, m_RotationY, m_RotationZ);
 		
-		//Player.transform.rotation = Quaternion.Euler(m_RotationX, m_RotationY, m_RotationZ);
 		Player.transform.rotation = Quaternion.RotateTowards(transform.rotation, target, speed * Time.deltaTime);
 	}
 }
