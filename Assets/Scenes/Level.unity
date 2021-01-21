@@ -674,7 +674,7 @@ GameObject:
   - component: {fileID: 1196447107}
   - component: {fileID: 1196447106}
   m_Layer: 0
-  m_Name: Ball
+  m_Name: Player Ball
   m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -688,8 +688,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1196447105}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
+  m_Mass: 5
+  m_Drag: 10
   m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0

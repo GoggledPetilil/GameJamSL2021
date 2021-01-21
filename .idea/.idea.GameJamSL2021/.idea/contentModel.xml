@@ -8,8 +8,11 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CamMov.cs" t="Include" />
+          <e p="CharacterSelect.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
           <e p="deathCollider.cs" t="Include" />
           <e p="movePlane.cs" t="Include" />
+          <e p="objectFallingSystem.cs" t="Include" />
         </e>
       </e>
       <e p="GameJamSL2021.sln" t="IncludeFlat" />
